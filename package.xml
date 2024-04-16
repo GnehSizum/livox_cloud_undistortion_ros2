@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>livox_undistortion</name>
+  <version>0.0.1</version>
+  <description>The livox dedistortion package for ROS 2.</description>
+
+  <maintainer email="dev@livoxtech.com">livox</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rclcpp</depend>  
+  <depend>rclcpp_components</depend>  
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>livox_ros_driver2</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
